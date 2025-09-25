@@ -60,7 +60,7 @@ module yieldflow::native_usdc_vault_fa {
 
     /// Initialize vault: creates the resource account and stores its capability/address in VaultManager
     public entry fun initialize(admin: &signer) {
-        let seed = b"ai_yieldnet_usdc_vault";
+        let seed = b"ai_YieldFlow_usdc_vault";
         let (resource_signer, vault_cap) = account::create_resource_account(admin, seed);
         let resource_addr = signer::address_of(&resource_signer);
         assert!(!exists<VaultManager>(signer::address_of(admin)), E_ALREADY_INITIALIZED);

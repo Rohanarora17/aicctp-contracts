@@ -1,4 +1,4 @@
-# AI YieldNet Move Contracts
+# AI YieldFlow Move Contracts
 
 - Build: `aptos move compile --package-dir .`
 - Test:  `aptos move test --package-dir .`
