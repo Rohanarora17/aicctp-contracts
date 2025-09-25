@@ -1,5 +1,5 @@
 #[test_only]
-module ai_yieldnet::native_usdc_vault_fa_tests {
+module yieldflow::native_usdc_vault_fa_tests {
     use std::signer;
     use aptos_framework::account;
     use aptos_framework::object;

@@ -1,4 +1,4 @@
-module ai_yieldnet::native_usdc_vault_fa {
+module yieldflow::native_usdc_vault_fa {
     use std::signer;
     use std::option;
     use aptos_framework::timestamp;
