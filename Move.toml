@@ -1,0 +1,21 @@
+[package]
+name = "ai_yieldnet"
+version = "1.0.0"
+authors = ["AI YieldNet Team"]
+
+# Main contract:
+# - native_usdc_vault.move: Native USDC vault (Circle's official USDC)
+# - native_usdc_vault_tests.move: Test suite for the Native USDC vault
+
+[addresses]
+ai_yieldnet = "0x23c9f2369a55c852b094095f0de9cd333f9cd469fa031d9d3096235829e18ce8"
+circle_usdc = "0x69091fbab5f7d635ee7ac5098cf0c1efbe31d68fec0f2cd565e8d168daf52832"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

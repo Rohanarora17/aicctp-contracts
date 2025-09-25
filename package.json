@@ -1,0 +1,16 @@
+{
+  "name": "ai-yieldnet-contracts",
+  "version": "1.0.0",
+  "description": "Move smart contracts for AI YieldNet",
+  "scripts": {
+    "test": "aptos move test",
+    "compile": "aptos move compile",
+    "deploy": "ts-node scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@aptos-labs/ts-sdk": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
